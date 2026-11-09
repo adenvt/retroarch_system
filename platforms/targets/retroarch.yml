@@ -1,6 +1,6 @@
 platform: retroarch
 source: https://buildbot.libretro.com/nightly/
-scraped_at: '2026-08-06T11:31:07Z'
+scraped_at: '2026-11-09T14:31:14Z'
 targets:
   linux-x86_64:
     architecture: x86_64
@@ -11,6 +11,7 @@ targets:
     - DoubleCherryGB
     - a5200
     - amiarcadia
+    - amiberry
     - anarch
     - applewin
     - ardens
@@ -37,24 +38,30 @@ targets:
     - cannonball
     - cap32
     - cdi2015
+    - cemu
     - chailove
     - citra
     - citra2018
     - clownmdemu
+    - coolbaremu
     - craft
     - crocods
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
+    - dosbox
     - dosbox_core
     - dosbox_pure
     - dosbox_svn
     - doukutsu_rs
     - easyrpg
     - ecwolf
+    - eduke32
+    - emuscv
     - ep128emu_core
     - fbalpha
     - fbalpha2012
@@ -71,15 +78,18 @@ targets:
     - freechaf
     - freeintv
     - frodo
+    - fsuae
     - fuse
     - galaksija
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - geolith
@@ -89,13 +99,18 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
     - hbmame
     - holani
+    - hyperscanemu
+    - hypseushw
     - irogb
     - jaxe
     - jollycv
     - jumpnbump
     - kronos
+    - linuxloader
     - lowresnx
     - lutro
     - m2000
@@ -105,6 +120,8 @@ targets:
     - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mcsoftserve
     - mednafen_gba
     - mednafen_lynx
@@ -124,6 +141,7 @@ targets:
     - melondsds
     - mesen
     - mesen-s
+    - mesen2
     - meteor
     - mgba
     - minivmac
@@ -131,29 +149,40 @@ targets:
     - mrboom
     - mu
     - mupen64plus_next
+    - n64emu
     - native32emu
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
+    - nside_sfc_balanced
     - nuance
     - numero
     - nxengine
     - o2em
     - oberon
+    - odin
+    - omicron
     - openlara
+    - openmsx
     - opera
     - panda3ds
+    - parallel_dc
     - parallel_n64
     - pcee2
+    - pcem
     - pcsx2
     - pcsx_rearmed
     - pd777
     - picodrive
+    - piece
     - play
+    - playdiaemu
     - pocketcdg
     - pokemini
+    - pokket
     - pokketstation
     - potator
     - ppsspp
@@ -166,9 +195,13 @@ targets:
     - quasi88
     - quicknes
     - race
+    - radio
     - reminiscence
+    - remotejoy
     - retro8
     - romcleaner
+    - rpcs3
+    - rust_dos
     - rustynes
     - same_cdi
     - sameboy
@@ -181,11 +214,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - tgbdual
@@ -195,6 +230,7 @@ targets:
     - tic80
     - tyrquake
     - uw8
+    - uzdoom
     - uzem
     - vaporspec
     - vba_next
@@ -210,16 +246,21 @@ targets:
     - vice_xplus4
     - vice_xscpu64
     - vice_xvic
+    - video_processor
     - vircon32
     - virtualjaguar
     - virtualxt
+    - vita3k
     - vitaquake2
     - vitaquake2-rogue
     - vitaquake2-xatrix
     - vitaquake2-zaero
     - vitaquake3
     - wasm4
+    - wqxemu
     - x1
+    - xemu
+    - xenia_edge
     - xrick
     - yabasanshiro
     - yabause
@@ -432,10 +473,12 @@ targets:
     architecture: x86_64
     cores:
     - '2048'
+    - 3dengine
     - '81'
     - DoubleCherryGB
     - a5200
     - amiarcadia
+    - amiberry
     - anarch
     - applewin
     - ardens
@@ -462,24 +505,30 @@ targets:
     - cannonball
     - cap32
     - cdi2015
+    - cemu
     - chailove
     - citra
     - citra2018
     - clownmdemu
+    - coolbaremu
     - craft
     - crocods
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
+    - dosbox
     - dosbox_core
     - dosbox_pure
     - dosbox_svn
     - doukutsu_rs
     - easyrpg
     - ecwolf
+    - eduke32
+    - emuscv
     - ep128emu_core
     - fbalpha
     - fbalpha2012
@@ -500,11 +549,13 @@ targets:
     - galaksija
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - geolith
@@ -514,13 +565,18 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
     - hbmame
     - holani
+    - hyperscanemu
+    - hypseushw
     - irogb
     - jaxe
     - jollycv
     - jumpnbump
     - kronos
+    - linuxloader
     - lowresnx
     - lutro
     - m2000
@@ -530,6 +586,8 @@ targets:
     - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mcsoftserve
     - mednafen_gba
     - mednafen_lynx
@@ -549,6 +607,7 @@ targets:
     - melondsds
     - mesen
     - mesen-s
+    - mesen2
     - meteor
     - mgba
     - minivmac
@@ -556,29 +615,39 @@ targets:
     - mrboom
     - mu
     - mupen64plus_next
+    - n64emu
     - native32emu
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
+    - nside_sfc_balanced
     - nuance
     - numero
     - nxengine
     - o2em
     - oberon
+    - odin
     - openlara
+    - openmsx
     - opera
     - panda3ds
+    - parallel_dc
     - parallel_n64
     - pcee2
+    - pcem
     - pcsx2
     - pcsx_rearmed
     - pd777
     - picodrive
+    - piece
     - play
+    - playdiaemu
     - pocketcdg
     - pokemini
+    - pokket
     - pokketstation
     - potator
     - ppsspp
@@ -591,9 +660,13 @@ targets:
     - quasi88
     - quicknes
     - race
+    - radio
     - reminiscence
+    - remotejoy
     - retro8
     - romcleaner
+    - rpcs3
+    - rust_dos
     - rustynes
     - same_cdi
     - sameboy
@@ -606,6 +679,240 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
+    - squirreljme
+    - stella
+    - stella2014
+    - stella2023
+    - superbroswar
+    - supermodel
+    - swanstation
+    - tamalibretro
+    - tgbdual
+    - theodore
+    - thepowdertoy
+    - tia
+    - tic80
+    - tyrquake
+    - uw8
+    - uzdoom
+    - uzem
+    - vaporspec
+    - vba_next
+    - vbam
+    - vecx
+    - vemulator
+    - vice_x128
+    - vice_x64
+    - vice_x64sc
+    - vice_xcbm2
+    - vice_xcbm5x0
+    - vice_xpet
+    - vice_xplus4
+    - vice_xscpu64
+    - vice_xvic
+    - vircon32
+    - virtualjaguar
+    - virtualxt
+    - vita3k
+    - vitaquake2
+    - vitaquake2-rogue
+    - vitaquake2-xatrix
+    - vitaquake2-zaero
+    - vitaquake3
+    - wasm4
+    - wqxemu
+    - x1
+    - xemu
+    - xenia_edge
+    - xrick
+    - yabasanshiro
+    - yabause
+    - ymir
+  windows-x86:
+    architecture: x86
+    cores:
+    - '2048'
+    - 3dengine
+    - '81'
+    - DoubleCherryGB
+    - a5200
+    - amiarcadia
+    - anarch
+    - applewin
+    - ardens
+    - arduous
+    - atari800
+    - b2
+    - bbkemu
+    - bk
+    - blastem
+    - bluemsx
+    - boom3
+    - boom3_xp
+    - bsnes
+    - bsnes-jg
+    - bsnes2014_accuracy
+    - bsnes2014_balanced
+    - bsnes2014_performance
+    - bsnes_cplusplus98
+    - bsnes_hd_beta
+    - bsnes_mercury_accuracy
+    - bsnes_mercury_balanced
+    - bsnes_mercury_performance
+    - cannonball
+    - cap32
+    - cdi2015
+    - chailove
+    - clownmdemu
+    - coolbaremu
+    - craft
+    - crocods
+    - desmume2015
+    - dice
+    - dingooemu
+    - dinothawr
+    - dirksimple
+    - dosbox
+    - dosbox_core
+    - dosbox_pure
+    - dosbox_svn
+    - easyrpg
+    - ecwolf
+    - emuscv
+    - ep128emu_core
+    - fbalpha2012
+    - fbalpha2012_cps1
+    - fbalpha2012_cps2
+    - fbalpha2012_cps3
+    - fbalpha2012_neogeo
+    - fbneo
+    - fceumm
+    - fixgb
+    - fixnes
+    - flycast
+    - fmsx
+    - freechaf
+    - freeintv
+    - frodo
+    - fuse
+    - galaksija
+    - gam4980
+    - gambatte
+    - gametank
+    - gearboy
+    - gearcoleco
+    - geargrafx
+    - gearlynx
+    - gearsystem
+    - geartowns
+    - genesis_plus_gx
+    - genesis_plus_gx_wide
+    - geolith
+    - gme
+    - gong
+    - gpsp
+    - gw
+    - handy
+    - hatari
+    - hatari2014
+    - hatarib
+    - hbmame
+    - holani
+    - hyperscanemu
+    - jaxe
+    - jollycv
+    - jumpnbump
+    - lowresnx
+    - lutro
+    - m2000
+    - mame
+    - mame2000
+    - mame2003
+    - mame2003_midway
+    - mame2003_plus
+    - mame2010
+    - mame2015
+    - mame2016
+    - mcsoftserve
+    - mednafen_gba
+    - mednafen_lynx
+    - mednafen_ngp
+    - mednafen_pce
+    - mednafen_pce_fast
+    - mednafen_pcfx
+    - mednafen_psx
+    - mednafen_psx_hw
+    - mednafen_saturn
+    - mednafen_snes
+    - mednafen_supergrafx
+    - mednafen_vb
+    - mednafen_wswan
+    - melonds
+    - mesen
+    - mesen-s
+    - mesen2
+    - meteor
+    - mgba
+    - minivmac
+    - mojozork
+    - mrboom
+    - mu
+    - mupen64plus_next
+    - n64emu
+    - native32emu
+    - nekop2
+    - neocd
+    - nestopia
+    - nicaiemu
+    - np2kai
+    - nuance
+    - numero
+    - nxengine
+    - o2em
+    - oberon
+    - opera
+    - parallel_dc
+    - parallel_n64
+    - pcem
+    - pcsx_rearmed
+    - pd777
+    - picodrive
+    - piece
+    - play
+    - playdiaemu
+    - pocketcdg
+    - pokemini
+    - pokket
+    - pokketstation
+    - potator
+    - ppsspp
+    - prboom
+    - prosystem
+    - puae
+    - puae2021
+    - px68k
+    - qemu
+    - quasi88
+    - quicknes
+    - race
+    - radio
+    - reminiscence
+    - remotejoy
+    - retro8
+    - rustynes
+    - same_cdi
+    - sameboy
+    - sameduck
+    - scummvm
+    - skyemu
+    - smsplus
+    - snes9x
+    - snes9x2002
+    - snes9x2005
+    - snes9x2005_plus
+    - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
@@ -644,201 +951,7 @@ targets:
     - vitaquake2-zaero
     - vitaquake3
     - wasm4
-    - x1
-    - xrick
-    - yabasanshiro
-    - yabause
-    - ymir
-  windows-x86:
-    architecture: x86
-    cores:
-    - '2048'
-    - '81'
-    - DoubleCherryGB
-    - a5200
-    - amiarcadia
-    - anarch
-    - applewin
-    - ardens
-    - arduous
-    - atari800
-    - b2
-    - bk
-    - blastem
-    - bluemsx
-    - boom3
-    - boom3_xp
-    - bsnes
-    - bsnes-jg
-    - bsnes2014_accuracy
-    - bsnes2014_balanced
-    - bsnes2014_performance
-    - bsnes_cplusplus98
-    - bsnes_hd_beta
-    - bsnes_mercury_accuracy
-    - bsnes_mercury_balanced
-    - bsnes_mercury_performance
-    - cannonball
-    - cap32
-    - cdi2015
-    - chailove
-    - clownmdemu
-    - craft
-    - crocods
-    - desmume2015
-    - dice
-    - dinothawr
-    - dirksimple
-    - dosbox_core
-    - dosbox_pure
-    - dosbox_svn
-    - easyrpg
-    - ecwolf
-    - ep128emu_core
-    - fbalpha2012
-    - fbalpha2012_cps1
-    - fbalpha2012_cps2
-    - fbalpha2012_cps3
-    - fbalpha2012_neogeo
-    - fbneo
-    - fceumm
-    - fixgb
-    - fixnes
-    - flycast
-    - fmsx
-    - freechaf
-    - freeintv
-    - frodo
-    - fuse
-    - galaksija
-    - gam4980
-    - gambatte
-    - gearboy
-    - gearcoleco
-    - geargrafx
-    - gearlynx
-    - gearsystem
-    - genesis_plus_gx
-    - genesis_plus_gx_wide
-    - geolith
-    - gme
-    - gong
-    - gpsp
-    - gw
-    - handy
-    - hatari
-    - jaxe
-    - jollycv
-    - jumpnbump
-    - lowresnx
-    - lutro
-    - m2000
-    - mame
-    - mame2000
-    - mame2003
-    - mame2003_plus
-    - mame2010
-    - mcsoftserve
-    - mednafen_gba
-    - mednafen_lynx
-    - mednafen_ngp
-    - mednafen_pce
-    - mednafen_pce_fast
-    - mednafen_pcfx
-    - mednafen_psx
-    - mednafen_psx_hw
-    - mednafen_saturn
-    - mednafen_snes
-    - mednafen_supergrafx
-    - mednafen_vb
-    - mednafen_wswan
-    - melonds
-    - mesen
-    - mesen-s
-    - mgba
-    - minivmac
-    - mojozork
-    - mrboom
-    - mu
-    - mupen64plus_next
-    - nekop2
-    - neocd
-    - nestopia
-    - np2kai
-    - numero
-    - nxengine
-    - o2em
-    - oberon
-    - opera
-    - parallel_n64
-    - pcsx_rearmed
-    - pd777
-    - picodrive
-    - play
-    - pocketcdg
-    - pokemini
-    - pokketstation
-    - potator
-    - ppsspp
-    - prboom
-    - prosystem
-    - puae
-    - puae2021
-    - px68k
-    - qemu
-    - quasi88
-    - quicknes
-    - race
-    - reminiscence
-    - retro8
-    - same_cdi
-    - sameboy
-    - sameduck
-    - scummvm
-    - skyemu
-    - smsplus
-    - snes9x
-    - snes9x2002
-    - snes9x2005
-    - snes9x2005_plus
-    - snes9x2010
-    - squirreljme
-    - stella
-    - stella2014
-    - stella2023
-    - superbroswar
-    - swanstation
-    - tamalibretro
-    - tgbdual
-    - theodore
-    - thepowdertoy
-    - tia
-    - tic80
-    - tyrquake
-    - uw8
-    - uzem
-    - vaporspec
-    - vba_next
-    - vbam
-    - vecx
-    - vemulator
-    - vice_x128
-    - vice_x64
-    - vice_x64sc
-    - vice_xcbm2
-    - vice_xcbm5x0
-    - vice_xpet
-    - vice_xplus4
-    - vice_xscpu64
-    - vice_xvic
-    - vircon32
-    - virtualjaguar
-    - virtualxt
-    - vitaquake2
-    - vitaquake2-rogue
-    - vitaquake2-xatrix
-    - vitaquake2-zaero
-    - wasm4
+    - wqxemu
     - x1
     - xrick
     - yabasanshiro
@@ -852,15 +965,18 @@ targets:
     - DoubleCherryGB
     - a5200
     - amiarcadia
+    - amiberry
     - anarch
     - applewin
     - ardens
     - arduous
+    - armsx2
     - atari800
     - azahar
     - b2
     - bbkemu
     - bk
+    - blastem
     - bluemsx
     - boom3
     - bsnes
@@ -875,24 +991,31 @@ targets:
     - bsnes_mercury_performance
     - cannonball
     - cap32
+    - cemu
     - chailove
     - citra
+    - citra2018
     - clownmdemu
+    - coolbaremu
     - craft
     - crocods
     - daphne
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
+    - dosbox
     - dosbox_core
     - dosbox_pure
     - dosbox_svn
     - doukutsu_rs
     - easyrpg
     - ecwolf
+    - eduke32
+    - emuscv
     - ep128emu_core
     - fbalpha
     - fbalpha2012
@@ -903,6 +1026,8 @@ targets:
     - fbneo
     - fceumm
     - ffmpeg
+    - fixgb
+    - fixnes
     - flycast
     - fmsx
     - freechaf
@@ -912,11 +1037,13 @@ targets:
     - galaksija
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - geolith
@@ -926,8 +1053,12 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
     - hbmame
     - holani
+    - hyperscanemu
+    - hypseushw
     - irogb
     - jaxe
     - jollycv
@@ -940,6 +1071,8 @@ targets:
     - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mamearcade
     - mamemess
     - mcsoftserve
@@ -961,6 +1094,7 @@ targets:
     - melondsds
     - mesen
     - mesen-s
+    - mesen2
     - meteor
     - mgba
     - minivmac
@@ -973,22 +1107,31 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
+    - nuance
     - numero
     - nxengine
     - o2em
     - oberon
     - openlara
+    - openmsx
     - opera
     - panda3ds
+    - parallel_dc
     - parallel_n64
+    - pcee2
+    - pcsx2
     - pcsx_rearmed
     - pd777
     - picodrive
+    - piece
     - play
+    - playdiaemu
     - pocketcdg
     - pokemini
+    - pokket
     - pokketstation
     - potator
     - ppsspp
@@ -1001,9 +1144,12 @@ targets:
     - quasi88
     - quicknes
     - race
+    - radio
     - reminiscence
     - retro8
     - romcleaner
+    - rpcs3
+    - rust_dos
     - rustynes
     - same_cdi
     - sameboy
@@ -1016,11 +1162,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - test
@@ -1031,6 +1179,7 @@ targets:
     - tic80
     - tyrquake
     - uw8
+    - uzdoom
     - uzem
     - vaporspec
     - vba_next
@@ -1049,12 +1198,15 @@ targets:
     - vircon32
     - virtualjaguar
     - virtualxt
+    - vita3k
     - vitaquake2
     - vitaquake2-rogue
     - vitaquake2-xatrix
     - vitaquake2-zaero
     - wasm4
+    - wqxemu
     - x1
+    - xenia_edge
     - xrick
     - yabasanshiro
     - yabause
@@ -1069,11 +1221,14 @@ targets:
     - a5200
     - amiarcadia
     - anarch
+    - applewin
     - ardens
     - arduous
     - atari800
+    - b2
     - bbkemu
     - bk
+    - blastem
     - bluemsx
     - boom3
     - bsnes
@@ -1090,21 +1245,25 @@ targets:
     - cap32
     - chailove
     - clownmdemu
+    - coolbaremu
     - craft
     - crocods
     - daphne
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
+    - dosbox
     - dosbox_core
     - dosbox_pure
     - dosbox_svn
     - doukutsu_rs
     - easyrpg
     - ecwolf
+    - emuscv
     - ep128emu_core
     - fbalpha
     - fbalpha2012
@@ -1115,6 +1274,8 @@ targets:
     - fbneo
     - fceumm
     - ffmpeg
+    - fixgb
+    - fixnes
     - flycast
     - fmsx
     - freechaf
@@ -1124,11 +1285,13 @@ targets:
     - galaksija
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - geolith
@@ -1138,7 +1301,11 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
+    - hbmame
     - holani
+    - hyperscanemu
     - jaxe
     - jollycv
     - jumpnbump
@@ -1150,6 +1317,8 @@ targets:
     - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mamearcade
     - mcsoftserve
     - mednafen_gba
@@ -1170,6 +1339,7 @@ targets:
     - melondsds
     - mesen
     - mesen-s
+    - mesen2
     - meteor
     - mgba
     - minivmac
@@ -1178,10 +1348,12 @@ targets:
     - mu
     - mupen64plus_next_gles2
     - mupen64plus_next_gles3
+    - na
     - native32emu
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - numero
@@ -1190,13 +1362,17 @@ targets:
     - oberon
     - openlara
     - opera
+    - parallel_dc
     - parallel_n64
     - pcsx_rearmed
     - pd777
     - picodrive
+    - piece
     - play
+    - playdiaemu
     - pocketcdg
     - pokemini
+    - pokket
     - pokketstation
     - potator
     - ppsspp
@@ -1209,9 +1385,11 @@ targets:
     - quasi88
     - quicknes
     - race
+    - radio
     - reminiscence
     - retro8
     - romcleaner
+    - rust_dos
     - rustynes
     - same_cdi
     - sameboy
@@ -1224,11 +1402,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - test
@@ -1262,6 +1442,7 @@ targets:
     - vitaquake2-xatrix
     - vitaquake2-zaero
     - wasm4
+    - wqxemu
     - x1
     - xrick
     - yabasanshiro
@@ -1275,12 +1456,16 @@ targets:
     - DoubleCherryGB
     - a5200
     - amiarcadia
+    - amiberry
     - anarch
+    - applewin
     - ardens
     - arduous
     - atari800
+    - b2
     - bbkemu
     - bk
+    - blastem
     - bluemsx
     - boom3
     - bsnes
@@ -1295,23 +1480,30 @@ targets:
     - bsnes_mercury_performance
     - cannonball
     - cap32
+    - cemu
     - chailove
+    - citra
+    - citra2018
     - clownmdemu
+    - coolbaremu
     - craft
     - crocods
     - daphne
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
+    - dosbox
     - dosbox_core
     - dosbox_pure
     - dosbox_svn
     - doukutsu_rs
     - easyrpg
     - ecwolf
+    - emuscv
     - ep128emu_core
     - fbalpha
     - fbalpha2012
@@ -1322,6 +1514,8 @@ targets:
     - fbneo
     - fceumm
     - ffmpeg
+    - fixgb
+    - fixnes
     - flycast
     - fmsx
     - freechaf
@@ -1331,11 +1525,13 @@ targets:
     - galaksija
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - geolith
@@ -1345,7 +1541,11 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
+    - hbmame
     - holani
+    - hyperscanemu
     - jaxe
     - jollycv
     - jumpnbump
@@ -1357,6 +1557,8 @@ targets:
     - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mamearcade
     - mcsoftserve
     - mednafen_gba
@@ -1377,6 +1579,7 @@ targets:
     - melondsds
     - mesen
     - mesen-s
+    - mesen2
     - mesens
     - meteor
     - mgba
@@ -1386,24 +1589,34 @@ targets:
     - mu
     - mupen64plus_next_gles2
     - mupen64plus_next_gles3
+    - na
     - native32emu
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
+    - nuance
     - numero
     - nxengine
     - o2em
     - oberon
     - openlara
     - opera
+    - parallel_dc
+    - parallel_n64
+    - pcee2
+    - pcsx2
     - pcsx_rearmed
     - pd777
     - picodrive
+    - piece
     - play
+    - playdiaemu
     - pocketcdg
     - pokemini
+    - pokket
     - pokketstation
     - potator
     - ppsspp
@@ -1416,9 +1629,12 @@ targets:
     - quasi88
     - quicknes
     - race
+    - radio
     - reminiscence
     - retro8
     - romcleaner
+    - rpcs3
+    - rust_dos
     - rustynes
     - same_cdi
     - sameboy
@@ -1431,11 +1647,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - test
@@ -1464,12 +1682,15 @@ targets:
     - vircon32
     - virtualjaguar
     - virtualxt
+    - vita3k
     - vitaquake2
     - vitaquake2-rogue
     - vitaquake2-xatrix
     - vitaquake2-zaero
     - wasm4
+    - wqxemu
     - x1
+    - xenia_edge
     - xrick
     - yabasanshiro
     - yabause
@@ -1484,12 +1705,16 @@ targets:
     - a5200
     - amiarcadia
     - anarch
+    - applewin
     - ardens
     - arduous
     - atari800
+    - b2
     - bbkemu
     - bk
+    - blastem
     - bluemsx
+    - boom3
     - bsnes
     - bsnes-jg
     - bsnes2014_accuracy
@@ -1504,21 +1729,25 @@ targets:
     - cap32
     - chailove
     - clownmdemu
+    - coolbaremu
     - craft
     - crocods
     - daphne
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
+    - dosbox
     - dosbox_core
     - dosbox_pure
     - dosbox_svn
     - doukutsu_rs
     - easyrpg
     - ecwolf
+    - emuscv
     - ep128emu_core
     - fbalpha
     - fbalpha2012
@@ -1529,6 +1758,8 @@ targets:
     - fbneo
     - fceumm
     - ffmpeg
+    - fixgb
+    - fixnes
     - flycast
     - fmsx
     - freechaf
@@ -1538,11 +1769,13 @@ targets:
     - galaksija
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - geolith
@@ -1552,7 +1785,11 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
+    - hbmame
     - holani
+    - hyperscanemu
     - jaxe
     - jollycv
     - jumpnbump
@@ -1564,6 +1801,8 @@ targets:
     - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mamearcade
     - mcsoftserve
     - mednafen_gba
@@ -1583,6 +1822,7 @@ targets:
     - melonds
     - mesen
     - mesen-s
+    - mesen2
     - mesens
     - meteor
     - mgba
@@ -1596,6 +1836,7 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - numero
@@ -1604,12 +1845,17 @@ targets:
     - oberon
     - openlara
     - opera
+    - parallel_dc
+    - parallel_n64
     - pcsx_rearmed
     - pd777
     - picodrive
+    - piece
     - play
+    - playdiaemu
     - pocketcdg
     - pokemini
+    - pokket
     - pokketstation
     - potator
     - ppsspp
@@ -1622,6 +1868,7 @@ targets:
     - quasi88
     - quicknes
     - race
+    - radio
     - reminiscence
     - retro8
     - romcleaner
@@ -1636,6 +1883,7 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
@@ -1674,6 +1922,7 @@ targets:
     - vitaquake2-xatrix
     - vitaquake2-zaero
     - wasm4
+    - wqxemu
     - x1
     - xrick
     - yabasanshiro
@@ -1682,10 +1931,12 @@ targets:
     architecture: x86_64
     cores:
     - '2048'
+    - 3dengine
     - '81'
     - DoubleCherryGB
     - a5200
     - amiarcadia
+    - amiberry
     - anarch
     - applewin
     - ardens
@@ -1711,23 +1962,28 @@ targets:
     - bsnes_mercury_performance
     - cannonball
     - cap32
+    - cemu
     - chailove
     - clownmdemu
+    - coolbaremu
     - craft
     - crocods
     - daphne
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
+    - dosbox
     - dosbox_core
     - dosbox_pure
     - dosbox_svn
     - doukutsu_rs
     - easyrpg
     - ecwolf
+    - emuscv
     - ep128emu_core
     - fbalpha2012
     - fbalpha2012_cps1
@@ -1738,6 +1994,7 @@ targets:
     - fceumm
     - ffmpeg
     - fixgb
+    - fixnes
     - flycast
     - fmsx
     - freechaf
@@ -1747,11 +2004,13 @@ targets:
     - galaksija
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - geolith
@@ -1761,8 +2020,12 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
+    - hbmame
     - higan_sfc
     - holani
+    - hyperscanemu
     - irogb
     - ishiiruka
     - jaxe
@@ -1774,8 +2037,11 @@ targets:
     - mame
     - mame2000
     - mame2003
+    - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mcsoftserve
     - mednafen_gba
     - mednafen_lynx
@@ -1794,6 +2060,7 @@ targets:
     - melondsds
     - mesen
     - mesen-s
+    - mesen2
     - mgba
     - minivmac
     - mojozork
@@ -1804,23 +2071,31 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
+    - nuance
     - numero
     - nxengine
     - o2em
     - oberon
     - openlara
+    - openmsx
     - opera
     - panda3ds
+    - parallel_dc
     - parallel_n64
+    - pcee2
     - pcsx2
     - pcsx_rearmed
     - pd777
     - picodrive
+    - piece
     - play
+    - playdiaemu
     - pocketcdg
     - pokemini
+    - pokket
     - pokketstation
     - potator
     - ppsspp
@@ -1833,10 +2108,13 @@ targets:
     - quasi88
     - quicknes
     - race
+    - radio
     - reminiscence
     - remotejoy
     - retro8
     - romcleaner
+    - rpcs3
+    - rust_dos
     - rustynes
     - same_cdi
     - sameboy
@@ -1849,11 +2127,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - test
@@ -1888,6 +2168,7 @@ targets:
     - vitaquake2-zaero
     - vitaquake3
     - wasm4
+    - wqxemu
     - x1
     - xrick
     - yabasanshiro
@@ -1897,19 +2178,23 @@ targets:
     architecture: aarch64
     cores:
     - '2048'
+    - 3dengine
     - '81'
     - DoubleCherryGB
     - a5200
     - amiarcadia
+    - amiberry
     - anarch
     - applewin
     - ardens
     - arduous
+    - armsx2
     - atari800
     - azahar
     - b2
     - bbkemu
     - bk
+    - blastem
     - bluemsx
     - boom3
     - boom3_xp
@@ -1925,19 +2210,27 @@ targets:
     - bsnes_mercury_performance
     - cannonball
     - cap32
+    - cemu
     - chailove
+    - citra
+    - citra2018
     - clownmdemu
+    - coolbaremu
     - craft
     - crocods
     - desmume
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
+    - dosbox
     - dosbox_pure
     - doukutsu_rs
     - easyrpg
     - ecwolf
+    - eduke32
+    - emuscv
     - ep128emu_core
     - fbalpha2012
     - fbalpha2012_cps1
@@ -1947,6 +2240,7 @@ targets:
     - fbneo
     - fceumm
     - fixgb
+    - fixnes
     - flycast
     - fmsx
     - freechaf
@@ -1956,11 +2250,13 @@ targets:
     - galaksija
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - geolith
@@ -1970,8 +2266,11 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
     - hbmame
     - holani
+    - hyperscanemu
     - irogb
     - jaxe
     - jollycv
@@ -1982,8 +2281,11 @@ targets:
     - mame
     - mame2000
     - mame2003
+    - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mcsoftserve
     - mednafen_gba
     - mednafen_lynx
@@ -2002,6 +2304,7 @@ targets:
     - melondsds
     - mesen
     - mesen-s
+    - mesen2
     - mgba
     - minivmac
     - mojozork
@@ -2012,21 +2315,31 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
+    - nside_sfc_balanced
+    - nuance
     - numero
     - nxengine
     - o2em
     - oberon
+    - openmsx
     - opera
     - panda3ds
+    - parallel_dc
     - parallel_n64
+    - pcee2
+    - pcsx2
     - pcsx_rearmed
     - pd777
     - picodrive
+    - piece
     - play
+    - playdiaemu
     - pocketcdg
     - pokemini
+    - pokket
     - pokketstation
     - potator
     - ppsspp
@@ -2039,9 +2352,13 @@ targets:
     - quasi88
     - quicknes
     - race
+    - radio
     - reminiscence
+    - remotejoy
     - retro8
     - romcleaner
+    - rpcs3
+    - rust_dos
     - rustynes
     - same_cdi
     - sameboy
@@ -2054,11 +2371,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - tgbdual
@@ -2068,6 +2387,7 @@ targets:
     - tic80
     - tyrquake
     - uw8
+    - uzdoom
     - uzem
     - vaporspec
     - vba_next
@@ -2092,6 +2412,7 @@ targets:
     - vitaquake2-zaero
     - vitaquake3
     - wasm4
+    - wqxemu
     - x1
     - xrick
     - yabasanshiro
@@ -2101,6 +2422,7 @@ targets:
     architecture: aarch64
     cores:
     - '2048'
+    - 3dengine
     - '81'
     - DoubleCherryGB
     - a5200
@@ -2109,11 +2431,13 @@ targets:
     - applewin
     - ardens
     - arduous
+    - armsx2
     - atari800
     - azahar
     - b2
     - bbkemu
     - bk
+    - blastem
     - bluemsx
     - boom3
     - boom3_xp
@@ -2129,12 +2453,15 @@ targets:
     - bsnes_mercury_performance
     - cannonball
     - cap32
+    - cemu
     - chailove
     - clownmdemu
+    - coolbaremu
     - craft
     - crocods
     - desmume
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -2142,6 +2469,7 @@ targets:
     - doukutsu_rs
     - easyrpg
     - ecwolf
+    - emuscv
     - ep128emu_core
     - fbalpha2012
     - fbalpha2012_cps1
@@ -2151,6 +2479,7 @@ targets:
     - fbneo
     - fceumm
     - fixgb
+    - fixnes
     - flycast
     - fmsx
     - freechaf
@@ -2160,11 +2489,13 @@ targets:
     - galaksija
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - geolith
@@ -2174,8 +2505,11 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
     - hbmame
     - holani
+    - hyperscanemu
     - irogb
     - jaxe
     - jollycv
@@ -2186,8 +2520,11 @@ targets:
     - mame
     - mame2000
     - mame2003
+    - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mcsoftserve
     - mednafen_gba
     - mednafen_lynx
@@ -2206,6 +2543,7 @@ targets:
     - melondsds
     - mesen
     - mesen-s
+    - mesen2
     - mgba
     - minivmac
     - mojozork
@@ -2216,18 +2554,25 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
+    - nuance
     - numero
     - nxengine
     - o2em
     - oberon
     - opera
+    - parallel_dc
     - parallel_n64
+    - pcee2
+    - pcsx2
     - pcsx_rearmed
     - pd777
     - picodrive
+    - piece
     - play
+    - playdiaemu
     - pocketcdg
     - pokemini
     - potator
@@ -2241,9 +2586,11 @@ targets:
     - quasi88
     - quicknes
     - race
+    - radio
     - reminiscence
     - retro8
     - romcleaner
+    - rust_dos
     - rustynes
     - same_cdi
     - sameboy
@@ -2256,11 +2603,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - swanstation
     - tamalibretro
     - tgbdual
     - theodore
@@ -2268,6 +2617,7 @@ targets:
     - tia
     - tyrquake
     - uw8
+    - uzdoom
     - uzem
     - vaporspec
     - vba_next
@@ -2291,6 +2641,7 @@ targets:
     - vitaquake2-xatrix
     - vitaquake2-zaero
     - wasm4
+    - wqxemu
     - x1
     - xrick
     - yabasanshiro
@@ -2300,6 +2651,7 @@ targets:
     architecture: aarch64
     cores:
     - '2048'
+    - 3dengine
     - '81'
     - DoubleCherryGB
     - a5200
@@ -2308,11 +2660,13 @@ targets:
     - applewin
     - ardens
     - arduous
+    - armsx2
     - atari800
     - azahar
     - b2
     - bbkemu
     - bk
+    - blastem
     - bluemsx
     - boom3
     - boom3_xp
@@ -2328,12 +2682,15 @@ targets:
     - bsnes_mercury_performance
     - cannonball
     - cap32
+    - cemu
     - chailove
     - clownmdemu
+    - coolbaremu
     - craft
     - crocods
     - desmume
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -2341,6 +2698,8 @@ targets:
     - doukutsu_rs
     - easyrpg
     - ecwolf
+    - eduke32
+    - emuscv
     - ep128emu_core
     - fbalpha2012
     - fbalpha2012_cps1
@@ -2350,6 +2709,7 @@ targets:
     - fbneo
     - fceumm
     - fixgb
+    - fixnes
     - flycast
     - fmsx
     - freechaf
@@ -2359,11 +2719,13 @@ targets:
     - galaksija
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - geolith
@@ -2373,8 +2735,11 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
     - hbmame
     - holani
+    - hyperscanemu
     - irogb
     - jaxe
     - jollycv
@@ -2385,8 +2750,11 @@ targets:
     - mame
     - mame2000
     - mame2003
+    - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mcsoftserve
     - mednafen_gba
     - mednafen_lynx
@@ -2405,6 +2773,7 @@ targets:
     - melondsds
     - mesen
     - mesen-s
+    - mesen2
     - mgba
     - minivmac
     - mojozork
@@ -2415,17 +2784,24 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
+    - nuance
     - numero
     - nxengine
     - o2em
     - oberon
     - opera
+    - parallel_dc
+    - pcee2
+    - pcsx2
     - pcsx_rearmed
     - pd777
     - picodrive
+    - piece
     - play
+    - playdiaemu
     - pocketcdg
     - pokemini
     - potator
@@ -2438,9 +2814,11 @@ targets:
     - quasi88
     - quicknes
     - race
+    - radio
     - reminiscence
     - retro8
     - romcleaner
+    - rust_dos
     - rustynes
     - same_cdi
     - sameboy
@@ -2453,11 +2831,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - swanstation
     - tamalibretro
     - tgbdual
     - theodore
@@ -2465,6 +2845,7 @@ targets:
     - tia
     - tyrquake
     - uw8
+    - uzdoom
     - uzem
     - vaporspec
     - vba_next
@@ -2488,6 +2869,7 @@ targets:
     - vitaquake2-xatrix
     - vitaquake2-zaero
     - wasm4
+    - wqxemu
     - x1
     - xrick
     - yabasanshiro
@@ -2539,11 +2921,13 @@ targets:
     - fuse
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - gme
@@ -2551,27 +2935,33 @@ targets:
     - gpsp
     - gw
     - handy
+    - hatari
+    - hatarib
     - jaxe
     - jumpnbump
     - lowresnx
     - lutro
     - mame2000
     - mame2003
+    - mame2003_midway
     - mame2003_plus
     - mednafen_lynx
     - mednafen_ngp
     - mednafen_pce
     - mednafen_pce_fast
     - mednafen_pcfx
+    - mednafen_supafaust
     - mednafen_supergrafx
     - mednafen_vb
     - mednafen_wswan
     - melonds
     - mesen
     - mesen-s
+    - mesen2
     - mesens
     - mgba
     - minivmac
+    - mojozork
     - mrboom
     - mu
     - mupen64plus_next
@@ -2582,6 +2972,7 @@ targets:
     - nxengine
     - o2em
     - opera
+    - parallel_dc
     - pcsx_rearmed
     - pd777
     - picodrive
@@ -2677,6 +3068,7 @@ targets:
     - fuse
     - gam4980
     - gambatte
+    - gametank
     - gearboy
     - gearcoleco
     - geargrafx
@@ -2695,6 +3087,7 @@ targets:
     - lutro
     - mame2000
     - mame2003
+    - mame2003_midway
     - mame2003_plus
     - mednafen_ngp
     - mednafen_pce_fast
@@ -2702,6 +3095,7 @@ targets:
     - mednafen_wswan
     - mgba
     - minivmac
+    - mojozork
     - mrboom
     - mu
     - nekop2
@@ -2797,6 +3191,7 @@ targets:
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - gme
@@ -2809,6 +3204,7 @@ targets:
     - lowresnx
     - lutro
     - mame2000
+    - mame2003_midway
     - mednafen_lynx
     - mednafen_ngp
     - mednafen_pce_fast
@@ -2817,6 +3213,7 @@ targets:
     - mednafen_wswan
     - mgba
     - minivmac
+    - mojozork
     - mrboom
     - mu
     - nestopia
@@ -2905,11 +3302,14 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
     - jaxe
     - jumpnbump
     - lowresnx
     - lutro
     - mame2000
+    - mame2003_midway
     - mednafen_lynx
     - mednafen_ngp
     - mednafen_pce_fast
@@ -2919,6 +3319,7 @@ targets:
     - mednafen_wswan
     - mgba
     - minivmac
+    - mojozork
     - mrboom
     - mu
     - nestopia
@@ -3013,6 +3414,7 @@ targets:
     - geargrafx
     - gearlynx
     - gearsystem
+    - geartowns
     - genesis_plus_gx
     - genesis_plus_gx_wide
     - gme
@@ -3021,6 +3423,8 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
+    - hatarib
     - jaxe
     - jumpnbump
     - lowresnx
@@ -3038,6 +3442,7 @@ targets:
     - mednafen_wswan
     - mgba
     - minivmac
+    - mojozork
     - mrboom
     - mu
     - nekop2
@@ -3287,6 +3692,7 @@ targets:
     - mednafen_vb
     - mednafen_wswan
     - mgba
+    - mgba_splitscreen
     - mrboom
     - mu
     - nekop2

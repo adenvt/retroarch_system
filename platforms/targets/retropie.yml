@@ -1,6 +1,6 @@
 platform: retropie
 source: https://api.github.com/repos/RetroPie/RetroPie-Setup/contents/scriptmodules/libretrocores
-scraped_at: '2026-08-06T11:31:11Z'
+scraped_at: '2026-11-09T14:31:28Z'
 targets:
   rpi1:
     architecture: armv6
@@ -24,6 +24,7 @@ targets:
     - dosbox
     - dosbox_pure
     - ep128emu
+    - fake08
     - fbalpha2012
     - fbneo
     - fceumm
@@ -113,6 +114,7 @@ targets:
     - dosbox
     - dosbox_pure
     - ep128emu
+    - fake08
     - fbalpha2012
     - fbneo
     - fceumm
@@ -208,6 +210,7 @@ targets:
     - dosbox
     - dosbox_pure
     - ep128emu
+    - fake08
     - fbalpha2012
     - fbneo
     - fceumm
@@ -303,6 +306,7 @@ targets:
     - dosbox
     - dosbox_pure
     - ep128emu
+    - fake08
     - fbalpha2012
     - fbneo
     - fceumm
@@ -398,6 +402,7 @@ targets:
     - dosbox
     - dosbox_pure
     - ep128emu
+    - fake08
     - fbalpha2012
     - fbneo
     - fceumm
@@ -494,6 +499,7 @@ targets:
     - dosbox
     - dosbox_pure
     - ep128emu
+    - fake08
     - fbalpha2012
     - fbneo
     - fceumm
@@ -590,6 +596,7 @@ targets:
     - dosbox
     - dosbox_pure
     - ep128emu
+    - fake08
     - fbalpha2012
     - fbneo
     - fceumm
