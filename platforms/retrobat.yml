@@ -1,5 +1,5 @@
 platform: RetroBat
-version: 8.1.2
+version: 8.3.1
 homepage: "https://www.retrobat.org"
 source: "https://raw.githubusercontent.com/RetroBat-Official/emulatorlauncher/master/batocera-systems/Resources/batocera-systems.json"
 base_destination: bios
@@ -12,14 +12,54 @@ systems:
       destination: panafz1.bin
       required: true
       md5: f47264dd47fe30f73ab3c010015c155b
+    - name: panafz1j.bin
+      destination: panafz1j.bin
+      required: true
+      md5: a496cfdded3da562759be3561317b605
+    - name: panafz1j-norsa.bin
+      destination: panafz1j-norsa.bin
+      required: true
+      md5: f6c71de7470d16abe4f71b1444883dc8
     - name: panafz10.bin
       destination: panafz10.bin
       required: true
       md5: 51f2f43ae2f3508a14d9f56597e2d3ce
+    - name: panafz10-norsa.bin
+      destination: panafz10-norsa.bin
+      required: true
+      md5: 1477bda80dc33731a65468c1f5bcbee9
+    - name: panafz10e-anvil.bin
+      destination: panafz10e-anvil.bin
+      required: true
+      md5: a48e6746bd7edec0f40cff078f0bb19f
+    - name: panafz10e-anvil-norsa.bin
+      destination: panafz10e-anvil-norsa.bin
+      required: true
+      md5: cf11bbb5a16d7af9875cca9de9a15e09
     - name: goldstar.bin
       destination: goldstar.bin
       required: true
       md5: 8639fd5e549bd6238cfee79e3e749114
+    - name: sanyotry.bin
+      destination: sanyotry.bin
+      required: true
+      md5: 35fa1a1ebaaeea286dc5cd15487c13ea
+    - name: 3do_arcade_saot.bin
+      destination: 3do_arcade_saot.bin
+      required: true
+      md5: 8970fc987ab89a7f64da9f8a8c4333ff
+    - name: panafz1-kanji.bin
+      destination: panafz1-kanji.bin
+      required: true
+      md5: b8dc97f778a6245c58e064b0312e8281
+    - name: panafz1j-kanji.bin
+      destination: panafz1j-kanji.bin
+      required: true
+      md5: c23fb5d5e6bb1c240d02cf968972be37
+    - name: panafz10ja-anvil-kanji.bin
+      destination: panafz10ja-anvil-kanji.bin
+      required: true
+      md5: 428577250f43edc902ea239c50d2240d
     name: 3DO
   adam:
     files:
@@ -53,25 +93,50 @@ systems:
     - name: advision.zip
       destination: advision.zip
       required: true
-      md5: 1c08606408029751fd30ac91d2bf30d5
     - name: advision.xml
       destination: mame/hash/advision.xml
       required: true
     name: Adventure Vision
   amiga500:
     files:
-    - name: kick33180.A500
-      destination: kick33180.A500
-      required: true
-      md5: 85ad74194e87c08904327de1a9443b7a
     - name: kick34005.A500
       destination: kick34005.A500
       required: true
       md5: 82a21c1890cae844b3df741f2762d48d
+    - name: amiga-os-130.rom
+      destination: amiga-os-130.rom
+      required: true
+    - name: kick33180.A500
+      destination: kick33180.A500
+      required: true
+      md5: 85ad74194e87c08904327de1a9443b7a
+    - name: amiga-os-120.rom
+      destination: amiga-os-120.rom
+      required: true
     - name: kick37175.A500
       destination: kick37175.A500
       required: true
       md5: dc10d7bdd1b6f450773dfb558477c230
+    - name: amiga-os-204.rom
+      destination: amiga-os-204.rom
+      required: true
+    - name: kick40063.A600
+      destination: kick40063.A600
+      required: true
+      md5: e40a5dfb3d017ba8779faba30cbd1c8e
+    - name: amiga-os-310-a600.rom
+      destination: amiga-os-310-a600.rom
+      required: true
+    - name: kick40068.A1200
+      destination: kick40068.A1200
+      required: true
+      md5: 646773759326fbac3b2311fd8c8793ee
+    - name: amiga-os-310-a1200.rom
+      destination: amiga-os-310-a1200.rom
+      required: true
+    - name: rom.key
+      destination: rom.key
+      required: true
     name: Amiga 500
   amiga1200:
     files:
@@ -79,6 +144,26 @@ systems:
       destination: kick40068.A1200
       required: true
       md5: 646773759326fbac3b2311fd8c8793ee
+    - name: amiga-os-310-a1200.rom
+      destination: amiga-os-310-a1200.rom
+      required: true
+    - name: kick34005.A500
+      destination: kick34005.A500
+      required: true
+      md5: 82a21c1890cae844b3df741f2762d48d
+    - name: amiga-os-130.rom
+      destination: amiga-os-130.rom
+      required: true
+    - name: kick40063.A600
+      destination: kick40063.A600
+      required: true
+      md5: e40a5dfb3d017ba8779faba30cbd1c8e
+    - name: amiga-os-310-a600.rom
+      destination: amiga-os-310-a600.rom
+      required: true
+    - name: rom.key
+      destination: rom.key
+      required: true
     name: Amiga 1200
   amiga4000:
     files:
@@ -86,49 +171,93 @@ systems:
       destination: kick40068.A4000
       required: true
       md5: 9bdedde6a4f33555b4a270c8ca53297d
+    - name: amiga-os-310-a4000.rom
+      destination: amiga-os-310-a4000.rom
+      required: true
+    - name: kick34005.A500
+      destination: kick34005.A500
+      required: true
+      md5: 82a21c1890cae844b3df741f2762d48d
+    - name: amiga-os-130.rom
+      destination: amiga-os-130.rom
+      required: true
+    - name: kick40068.A1200
+      destination: kick40068.A1200
+      required: true
+      md5: 646773759326fbac3b2311fd8c8793ee
+    - name: amiga-os-310-a1200.rom
+      destination: amiga-os-310-a1200.rom
+      required: true
+    - name: rom.key
+      destination: rom.key
+      required: true
     name: Amiga 4000
   amigacdtv:
     files:
-    - name: kick40060.CD32.ext
-      destination: kick40060.CD32.ext
+    - name: kick34005.A500
+      destination: kick34005.A500
       required: true
-      md5: bb72565701b1b6faece07d68ea5da639
+      md5: 82a21c1890cae844b3df741f2762d48d
+    - name: amiga-os-130.rom
+      destination: amiga-os-130.rom
+      required: true
     - name: kick34005.CDTV
       destination: kick34005.CDTV
       required: true
       md5: 89da1838a24460e4b93f4f0c5d92d48d
+    - name: amiga-os-130-cdtv-ext.rom
+      destination: amiga-os-130-cdtv-ext.rom
+      required: true
+    - name: rom.key
+      destination: rom.key
+      required: true
     name: Amiga CDTV
   amigacd32:
     files:
-    - name: kick40060.CD32.ext
-      destination: kick40060.CD32.ext
-      required: true
-      md5: bb72565701b1b6faece07d68ea5da639
     - name: kick40060.CD32
       destination: kick40060.CD32
       required: true
       md5: 5f8924d013dd57a89cf349f4cdedc6b1
+    - name: amiga-os-310-cd32.rom
+      destination: amiga-os-310-cd32.rom
+      required: true
+    - name: kick40060.CD32.ext
+      destination: kick40060.CD32.ext
+      required: true
+      md5: bb72565701b1b6faece07d68ea5da639
+    - name: amiga-os-310-cd32-ext.rom
+      destination: amiga-os-310-cd32-ext.rom
+      required: true
+    - name: kick40068.A1200
+      destination: kick40068.A1200
+      required: true
+      md5: 646773759326fbac3b2311fd8c8793ee
+    - name: amiga-os-310-a1200.rom
+      destination: amiga-os-310-a1200.rom
+      required: true
+    - name: rom.key
+      destination: rom.key
+      required: true
     name: Amiga CD32
   apfm1000:
     files:
     - name: apfm1000.zip
       destination: apfm1000.zip
       required: true
-      md5: b197db12f7a13827717bbeb7cfd9542a
     - name: apfm1000.xml
       destination: mame/hash/apfm1000.xml
       required: true
     name: APF M-1000
   apple2:
     files:
-    - name: apple2.zip
-      destination: apple2.zip
-      required: true
     - name: apple2e.zip
       destination: apple2e.zip
       required: true
     - name: apple2ee.zip
       destination: apple2ee.zip
+      required: true
+    - name: apple2.zip
+      destination: apple2.zip
       required: true
     - name: apple2p.zip
       destination: apple2p.zip
@@ -136,26 +265,26 @@ systems:
     - name: a2diskiing.zip
       destination: a2diskiing.zip
       required: true
-    - name: votrsc01a.zip
-      destination: votrsc01a.zip
-      required: true
-    - name: votrsc01.zip
-      destination: votrsc01.zip
-      required: true
     - name: d2fdc.zip
       destination: d2fdc.zip
       required: true
-    - name: AppleIIe_DiskII.rom
-      destination: AppleIIe_DiskII.rom
+    - name: votrsc01a.zip
+      destination: votrsc01a.zip
       required: true
-    - name: AppleIIe.rom
-      destination: AppleIIe.rom
+    - name: a2cffa2.zip
+      destination: a2cffa2.zip
+      required: true
+    - name: apple2-asoft-auto.rom
+      destination: apple2-asoft-auto.rom
       required: true
     - name: apple2-int-auto.rom
       destination: apple2-int-auto.rom
       required: true
-    - name: apple2-asoft-auto.rom
-      destination: apple2-asoft-auto.rom
+    - name: disk2-16boot.rom
+      destination: disk2-16boot.rom
+      required: true
+    - name: disk2-16seq.rom
+      destination: disk2-16seq.rom
       required: true
     - name: disk2-13boot.rom
       destination: disk2-13boot.rom
@@ -163,11 +292,62 @@ systems:
     - name: disk2-13seq.rom
       destination: disk2-13seq.rom
       required: true
-    - name: disk2-16boot.rom
-      destination: disk2-16boot.rom
+    - name: AppleIIe.rom
+      destination: AppleIIe.rom
       required: true
-    - name: disk2-16seq.rom
-      destination: disk2-16seq.rom
+    - name: AppleIIe_DiskII.rom
+      destination: AppleIIe_DiskII.rom
+      required: true
+    - name: apple2e.rom
+      destination: pom2/apple2e.rom
+      required: true
+    - name: apple2e_char.rom
+      destination: pom2/apple2e_char.rom
+      required: true
+    - name: disk2.rom
+      destination: pom2/disk2.rom
+      required: true
+    - name: diskii_p6.rom
+      destination: pom2/diskii_p6.rom
+      required: true
+    - name: apple2o.rom
+      destination: pom2/apple2o.rom
+      required: true
+    - name: apple2.rom
+      destination: pom2/apple2.rom
+      required: true
+    - name: apple2p.rom
+      destination: pom2/apple2p.rom
+      required: true
+    - name: apple2_char.rom
+      destination: pom2/apple2_char.rom
+      required: true
+    - name: apple2e_unenh.rom
+      destination: pom2/apple2e_unenh.rom
+      required: true
+    - name: 342-0135-b.64.rom
+      destination: pom2/342-0135-b.64.rom
+      required: true
+    - name: apple2e_char_2k.rom
+      destination: pom2/apple2e_char_2k.rom
+      required: true
+    - name: 342-0133-a.chr.rom
+      destination: pom2/342-0133-a.chr.rom
+      required: true
+    - name: apple2c-32Kv0.rom
+      destination: pom2/apple2c-32Kv0.rom
+      required: true
+    - name: apple2c-16K.rom
+      destination: pom2/apple2c-16K.rom
+      required: true
+    - name: 3420033a.256
+      destination: pom2/3420033a.256
+      required: true
+    - name: apple2cp.rom
+      destination: pom2/apple2cp.rom
+      required: true
+    - name: apple2c-plus.rom
+      destination: pom2/apple2c-plus.rom
       required: true
     - name: apple2_cass.xml
       destination: mame/hash/apple2_cass.xml
@@ -188,8 +368,20 @@ systems:
       destination: APPLE2GS.ROM
       required: true
       md5: 20a0334c447cb069a040ae5be1d938df
+    - name: ROM
+      destination: ROM
+      required: true
+    - name: ROM.01
+      destination: ROM.01
+      required: true
+    - name: ROM.03
+      destination: ROM.03
+      required: true
     - name: apple2gs.zip
       destination: apple2gs.zip
+      required: true
+    - name: votrsc01a.zip
+      destination: votrsc01a.zip
       required: true
     - name: apple2gs_flop_clcracked.xml
       destination: mame/hash/apple2gs_flop_clcracked.xml
@@ -227,7 +419,6 @@ systems:
     - name: ar_bios.zip
       destination: ar_bios.zip
       required: true
-      md5: 37e9746f4491aa2df9a83729d1a93620
     - name: arcadia.xml
       destination: mame/hash/arcadia.xml
       required: true
@@ -249,7 +440,6 @@ systems:
     - name: astrocde.zip
       destination: astrocde.zip
       required: true
-      md5: f58a3823ab308ef0a02b498d126e5d96
     - name: astrocde.xml
       destination: mame/hash/astrocde.xml
       required: true
@@ -318,21 +508,6 @@ systems:
     - name: tos206.img
       destination: hatari/tos/tos206.img
       required: true
-    - name: emutos.img
-      destination: hatarib/emutos.img
-      required: true
-    - name: tos102.img
-      destination: hatarib/tos102.img
-      required: true
-    - name: tos106.img
-      destination: hatarib/tos106.img
-      required: true
-    - name: tos104.img
-      destination: hatarib/tos104.img
-      required: true
-    - name: tos206.img
-      destination: hatarib/tos206.img
-      required: true
     name: Atari ST
   atom:
     files:
@@ -354,7 +529,6 @@ systems:
     - name: awbios.zip
       destination: dc/awbios.zip
       required: true
-      md5: 0ec5ae5b5a5c4959fa8b43fcf8687f7c
     name: Atomiswave
   bbcmicro:
     files:
@@ -450,34 +624,75 @@ systems:
     - name: casloopy.zip
       destination: casloopy.zip
       required: true
-      md5: 0e1d8dc0110ecf8201c0cef11ef4a858
     - name: casloopy.xml
       destination: mame/hash/casloopy.xml
       required: true
     name: Casio Loopy
+  c64:
+    files:
+    - name: JiffyDOS_C64.bin
+      destination: vice/JiffyDOS_C64.bin
+      required: true
+      md5: be09394f0576cf81fa8bacf634daf9a2
+    - name: JiffyDOS_1541-II.bin
+      destination: vice/JiffyDOS_1541-II.bin
+      required: true
+      md5: 1b1e985ea5325a1f46eb7fd9681707bf
+    - name: JiffyDOS_1571_repl310654.bin
+      destination: vice/JiffyDOS_1571_repl310654.bin
+      required: true
+      md5: 41c6cc528e9515ffd0ed9b180f8467c0
+    - name: JiffyDOS_1581.bin
+      destination: vice/JiffyDOS_1581.bin
+      required: true
+      md5: 20b6885c6dc2d42c38754a365b043d71
+    name: Commodore 64
+  c128:
+    files:
+    - name: JiffyDOS_C128.bin
+      destination: vice/JiffyDOS_C128.bin
+      required: true
+      md5: cbbd1bbcb5e4fd8046b6030ab71fc021
+    - name: JiffyDOS_C64.bin
+      destination: vice/JiffyDOS_C64.bin
+      required: true
+      md5: be09394f0576cf81fa8bacf634daf9a2
+    - name: JiffyDOS_1541-II.bin
+      destination: vice/JiffyDOS_1541-II.bin
+      required: true
+      md5: 1b1e985ea5325a1f46eb7fd9681707bf
+    - name: JiffyDOS_1571_repl310654.bin
+      destination: vice/JiffyDOS_1571_repl310654.bin
+      required: true
+      md5: 41c6cc528e9515ffd0ed9b180f8467c0
+    - name: JiffyDOS_1581.bin
+      destination: vice/JiffyDOS_1581.bin
+      required: true
+      md5: 20b6885c6dc2d42c38754a365b043d71
+    name: Commodore 128
   cdi:
     files:
-    - name: cdibios.zip
-      destination: cdibios.zip
-      required: true
     - name: cdimono1.zip
       destination: cdimono1.zip
-      required: true
-    - name: cdimono2.zip
-      destination: cdimono2.zip
-      required: true
-    - name: cdi.xml
-      destination: mame/hash/cdi.xml
-      required: true
-    - name: cdibios.zip
-      destination: same_cdi/bios/cdibios.zip
       required: true
     - name: cdimono1.zip
       destination: same_cdi/bios/cdimono1.zip
       required: true
-    - name: cdimono2.zip
-      destination: same_cdi/bios/cdimono2.zip
+    - name: cdi.xml
+      destination: mame/hash/cdi.xml
       required: true
+    - name: cdi200.rom
+      destination: cdi200.rom
+      required: true
+      md5: 2969341396aa61e0143dc2351aaa6ef6
+    - name: cdi220b.rom
+      destination: cdi220b.rom
+      required: true
+      md5: ac0d468be366779c9df633be98da250a
+    - name: vmpega.rom
+      destination: vmpega.rom
+      required: true
+      md5: 53ba3bf7443187a657baa272d01d3771
     name: Philips CD-I
   channelf:
     files:
@@ -494,6 +709,30 @@ systems:
       required: true
       md5: 95d339631d867c8f1d15a5f2ec26069d
     name: Fairchild ChannelF
+  chihiro:
+    files:
+    - name: chihiro_xbox_bios.bin
+      destination: chihiro/chihiro_xbox_bios.bin
+      required: true
+    - name: fpr21042_m29w160et.bin
+      destination: chihiro/fpr21042_m29w160et.bin
+      required: true
+    - name: fpr-23887_29lv160te.ic4
+      destination: chihiro/fpr-23887_29lv160te.ic4
+      required: true
+    - name: fpr-23887.bin
+      destination: chihiro/fpr-23887.bin
+      required: true
+    - name: ic10_g24lc64.bin
+      destination: chihiro/ic10_g24lc64.bin
+      required: true
+    - name: ic11_24lc024.bin
+      destination: chihiro/ic11_24lc024.bin
+      required: true
+    - name: pc20_g24lc64.bin
+      destination: chihiro/pc20_g24lc64.bin
+      required: true
+    name: Sega Chihiro
   coco:
     files:
     - name: coco.zip
@@ -520,12 +759,12 @@ systems:
     name: Color Computer
   colecovision:
     files:
-    - name: coleco.rom
-      destination: coleco.rom
-      required: true
-      md5: 2c66f5911e5b42b8ebe113403548eee7
     - name: colecovision.rom
       destination: colecovision.rom
+      required: true
+      md5: 2c66f5911e5b42b8ebe113403548eee7
+    - name: coleco.rom
+      destination: coleco.rom
       required: true
       md5: 2c66f5911e5b42b8ebe113403548eee7
     - name: coleco.rom
@@ -633,51 +872,44 @@ systems:
     name: FM-7
   fmtowns:
     files:
-    - name: fmtowns.zip
-      destination: fmtowns.zip
+    - name: FMT_DIC.ROM
+      destination: geartowns/FMT_DIC.ROM
       required: true
-    - name: fmtownsux.zip
-      destination: fmtownsux.zip
+      md5: 34847786d7de94b5d1133c956ab1d75d
+    - name: FMT_DOS.ROM
+      destination: geartowns/FMT_DOS.ROM
       required: true
+      md5: 0585b19930d4a7f4c71bcc8a33746588
+    - name: FMT_FNT.ROM
+      destination: geartowns/FMT_FNT.ROM
+      required: true
+      md5: eb44f2093f51eb7159f03e170b13af76
+    - name: FMT_SYS.ROM
+      destination: geartowns/FMT_SYS.ROM
+      required: true
+      md5: feaf8c5675151e00cfe3ad27673bff29
     - name: FMT_DIC.ROM
       destination: fmtowns/FMT_DIC.ROM
       required: true
-      md5: 8fa4e553f28cfc0c30a0a1e589799942
+      md5: 34847786d7de94b5d1133c956ab1d75d
     - name: FMT_DOS.ROM
       destination: fmtowns/FMT_DOS.ROM
       required: true
       md5: 0585b19930d4a7f4c71bcc8a33746588
-    - name: FMT_F20.ROM
-      destination: fmtowns/FMT_F20.ROM
-      required: true
-      md5: ac0c7021e9bf48ca84b51ab651169a88
     - name: FMT_FNT.ROM
       destination: fmtowns/FMT_FNT.ROM
       required: true
-      md5: b91300e55b70227ce98b59c5f02fa8dd
+      md5: eb44f2093f51eb7159f03e170b13af76
     - name: FMT_SYS.ROM
       destination: fmtowns/FMT_SYS.ROM
       required: true
-      md5: 86fb6f7280689259f0ca839dd3dd6cde
-    - name: fmtowns_cd.xml
-      destination: mame/hash/fmtowns_cd.xml
-      required: true
-    - name: fmtowns_flop_cracked.xml
-      destination: mame/hash/fmtowns_flop_cracked.xml
-      required: true
-    - name: fmtowns_flop_misc.xml
-      destination: mame/hash/fmtowns_flop_misc.xml
-      required: true
-    - name: fmtowns_flop_orig.xml
-      destination: mame/hash/fmtowns_flop_orig.xml
-      required: true
+      md5: feaf8c5675151e00cfe3ad27673bff29
     name: FMTowns
   gamate:
     files:
     - name: gamate.zip
       destination: gamate.zip
       required: true
-      md5: 320bf3d4142fa1043255db7ff87d17c7
     - name: gamate.xml
       destination: mame/hash/gamate.xml
       required: true
@@ -687,17 +919,37 @@ systems:
     - name: gamecom.zip
       destination: gamecom.zip
       required: true
-      md5: f2087ed09f7fa8d8856cfafb20dd00dc
     - name: gamecom.xml
       destination: mame/hash/gamecom.xml
       required: true
     name: Game.com
+  gamecube:
+    files:
+    - name: IPL.bin
+      destination: emulators/dolphin-emu/User/GC/EUR/IPL.bin
+      required: true
+      md5: 0cdda509e2da83c85bfe423dd87346cc
+    - name: IPL.bin
+      destination: emulators/dolphin-emu/User/GC/USA/IPL.bin
+      required: true
+      md5: 019e39822a9ca3029124f74dd4d55ac4
+    - name: IPL.bin
+      destination: emulators/dolphin-emu/User/GC/JAP/IPL.bin
+      required: true
+      md5: fc924a7c879b661abc37cec4f018fdf3
+    name: GameCube
+  gamegear:
+    files:
+    - name: bios.gg
+      destination: bios.gg
+      required: true
+      md5: 672e104c3be3a238301aceffc3b23fd6
+    name: Game Gear
   gamepock:
     files:
     - name: gamepock.zip
       destination: gamepock.zip
       required: true
-      md5: 887479fe3c69a0b935c57a7a738e26c4
     - name: gamepock.xml
       destination: mame/hash/gamepock.xml
       required: true
@@ -728,7 +980,6 @@ systems:
     - name: gmaster.zip
       destination: gmaster.zip
       required: true
-      md5: 4239d6f44a0d78d27c69f9b95885f48e
     - name: gmaster.xml
       destination: mame/hash/gmaster.xml
       required: true
@@ -738,7 +989,6 @@ systems:
     - name: gp32.zip
       destination: gp32.zip
       required: true
-      md5: 8c392f475834218d88533150d36cc84c
     - name: gp32.xml
       destination: mame/hash/gp32.xml
       required: true
@@ -748,11 +998,24 @@ systems:
     - name: hikaru.zip
       destination: hikaru.zip
       required: true
-      md5: aac601811a25d7b31a3d5f3f1f82f338
+    - name: hikaru.zip
+      destination: roms/hikaru/hikaru.zip
+      required: true
     - name: mie.zip
       destination: mie.zip
       required: true
-      md5: e95415b161121bef35ade12367138c63
+    - name: mie.zip
+      destination: roms/hikaru/mie.zip
+      required: true
+    - name: jvs13551.zip
+      destination: jvs13551.zip
+      required: true
+    - name: 18wheelr.zip
+      destination: 18wheelr.zip
+      required: true
+    - name: srally2.zip
+      destination: srally2.zip
+      required: true
     name: Hikaru
   intellivision:
     files:
@@ -779,6 +1042,13 @@ systems:
       required: true
       md5: bcfe348c565d9dedb173822ee6850dea
     name: Jaguar
+  jaguarcd:
+    files:
+    - name: "[BIOS] Atari Jaguar CD (World).j64"
+      destination: "[BIOS] Atari Jaguar CD (World).j64"
+      required: true
+      md5: 77cd95c7ad06a39f4c59995094aa10f9
+    name: Jaguar CD
   laseractive:
     files:
     - name: "[BIOS] LaserActive PAC-N1 (Japan) (v1.02).bin"
@@ -848,10 +1118,43 @@ systems:
     - name: "[BIOS] Sega Master System (USA, Europe) (v1.3).sms"
       destination: "[BIOS] Sega Master System (USA, Europe) (v1.3).sms"
       required: true
+      md5: 840481177270d5642a14ca71ee72844c
     - name: "[BIOS] Sega Master System (Japan) (v2.1).sms"
       destination: "[BIOS] Sega Master System (Japan) (v2.1).sms"
       required: true
+      md5: 24a519c53f67b00640d0048ef7089105
+    - name: bios_E.sms
+      destination: bios_E.sms
+      required: true
+      md5: 840481177270d5642a14ca71ee72844c
+    - name: bios_U.sms
+      destination: bios_U.sms
+      required: true
+      md5: 840481177270d5642a14ca71ee72844c
+    - name: bios_J.sms
+      destination: bios_J.sms
+      required: true
+      md5: 24a519c53f67b00640d0048ef7089105
+    - name: bios.sms
+      destination: bios.sms
+      required: true
+      md5: 840481177270d5642a14ca71ee72844c
     name: Master System
+  model1:
+    files:
+    - name: model1io.zip
+      destination: roms/model1/model1io.zip
+      required: true
+    - name: model1io2.zip
+      destination: roms/model1/model1io2.zip
+      required: true
+    name: Sega Model 1
+  model2:
+    files:
+    - name: games.xml
+      destination: sm2-emu/games.xml
+      required: true
+    name: Sega Model 2
   msx:
     files:
     - name: MSX.ROM
@@ -1047,12 +1350,32 @@ systems:
       required: true
       md5: aad37b1492886b892f1821f37fd3ae34
     name: Nintendo 64 DD
+  namco2x6:
+    files:
+    - name: r27v1602f.8g
+      destination: pcsx2/bios/r27v1602f.8g
+      required: true
+    - name: r27v1602f.7d
+      destination: pcsx2/bios/r27v1602f.7d
+      required: true
+    name: Namco2x6
   naomi:
     files:
     - name: naomi.zip
       destination: dc/naomi.zip
       required: true
-      md5: eb4099aeb42ef089cfe94f8fe95e51f6
+    - name: airlbios.zip
+      destination: dc/airlbios.zip
+      required: true
+    - name: f355bios.zip
+      destination: dc/f355bios.zip
+      required: true
+    - name: f355dlx.zip
+      destination: dc/f355dlx.zip
+      required: true
+    - name: hod2bios.zip
+      destination: dc/hod2bios.zip
+      required: true
     name: Naomi
   naomi2:
     files:
@@ -1082,31 +1405,27 @@ systems:
     - name: dsi_firmware.bin
       destination: dsi_firmware.bin
       required: true
+    - name: dsi_nand.bin
+      destination: dsi_nand.bin
+      required: true
     name: Nintendo DS
   neogeo:
     files:
     - name: neogeo.zip
       destination: neogeo.zip
       required: true
-      md5: dffb72f116d36d025068b23970a4f6df
+    - name: neogeo.zip
+      destination: roms/neogeo/neogeo.zip
+      required: true
     name: NeoGeo
   neogeo64:
     files:
     - name: neogeo.zip
       destination: neogeo.zip
       required: true
-      md5: dffb72f116d36d025068b23970a4f6df
     name: Hyper NeoGeo 64
   neogeocd:
     files:
-    - name: neogeo.zip
-      destination: neogeo.zip
-      required: true
-      md5: dffb72f116d36d025068b23970a4f6df
-    - name: neocdz.zip
-      destination: neocdz.zip
-      required: true
-      md5: c733b4b7bd30fa849874d96c591c8639
     - name: neocd_f.rom
       destination: neocd/neocd_f.rom
       required: true
@@ -1136,6 +1455,15 @@ systems:
       required: true
     - name: uni-bioscd.rom
       destination: neocd/uni-bioscd.rom
+      required: true
+    - name: neocdz.zip
+      destination: neocdz.zip
+      required: true
+    - name: neocd.zip
+      destination: neocd.zip
+      required: true
+    - name: neogeo.zip
+      destination: neogeo.zip
       required: true
     name: NeoGeo CD
   ngage:
@@ -1230,19 +1558,15 @@ systems:
       required: true
       md5: 7da1e5b7c482d4108d22a5b09631d967
     name: NEC PC-9800
-  pcengine:
-    files:
-    - name: syscard3.pce
-      destination: syscard3.pce
-      required: true
-      md5: 38179df8f4ac870017db21ebcbf53114
-    name: PC Engine
   pcenginecd:
     files:
     - name: syscard3.pce
       destination: syscard3.pce
       required: true
       md5: 38179df8f4ac870017db21ebcbf53114
+    - name: gexpress.pce
+      destination: gexpress.pce
+      required: true
     name: PC Engine CD
   pcfx:
     files:
@@ -1259,7 +1583,6 @@ systems:
     - name: pegasus.zip
       destination: pegasus.zip
       required: true
-      md5: fee37d8140e4fab48aac4fdab2847f7d
     - name: pegasus_cart.xml
       destination: mame/hash/pegasus_cart.xml
       required: true
@@ -1277,14 +1600,80 @@ systems:
       destination: pcsx2/bios/ps2-0230a-20080220.bin
       required: true
       md5: 21038400dc633070a78ad53090c53017
+    - name: ps2-0230e-20080220.bin
+      destination: pcsx2/bios/ps2-0230e-20080220.bin
+      required: true
+      md5: dc69f0643a3030aaa4797501b483d6c4
+    - name: ps2-0230j-20080220.bin
+      destination: pcsx2/bios/ps2-0230j-20080220.bin
+      required: true
+      md5: 80ac46fa7e77b8ab4366e86948e54f83
+    - name: ps2-0250e-20100415.bin
+      destination: pcsx2/bios/ps2-0250e-20100415.bin
+      required: true
+      md5: 93ea3bcee4252627919175ff1b16a1d9
+    - name: SCPH30004R.bin
+      destination: pcsx2/bios/SCPH30004R.bin
+      required: true
+      md5: 28922c703cc7d2cf856f177f2985b3a9
+    - name: scph39001.bin
+      destination: pcsx2/bios/scph39001.bin
+      required: true
+      md5: d5ce2c7d119f563ce04bc04dbc3a323e
+    - name: ps3_ps2_emu_bios.bin
+      destination: pcsx2/bios/ps3_ps2_emu_bios.bin
+      required: true
+    - name: SCPH-39004_BIOS_V7_EUR_160.BIN
+      destination: pcsx2/bios/SCPH-39004_BIOS_V7_EUR_160.BIN
+      required: true
+    - name: SCPH-39001_BIOS_V7_USA_160.BIN
+      destination: pcsx2/bios/SCPH-39001_BIOS_V7_USA_160.BIN
+      required: true
+    - name: SCPH-70000_BIOS_V12_JAP_200.BIN
+      destination: pcsx2/bios/SCPH-70000_BIOS_V12_JAP_200.BIN
+      required: true
     name: PS2
+  sony-playstation-3:
+    files:
+    - name: PS3UPDAT.PUP
+      destination: PS3UPDAT.PUP
+      required: true
+    name: Playstation 3
+  sony-playstation-vita:
+    files:
+    - name: PSP2UPDAT.PUP
+      destination: vita3k/PSP2UPDAT.PUP
+      required: true
+    - name: PSP2UPDAT_FONT.PUP
+      destination: vita3k/PSP2UPDAT_FONT.PUP
+      required: true
+    - name: PSP2UPDAT_PREINST.PUP
+      destination: vita3k/PSP2UPDAT_PREINST.PUP
+      required: true
+    name: PlayStation Vita
   psx:
     files:
     - name: psxonpsp660.bin
       destination: psxonpsp660.bin
       required: true
       md5: c53ca5908936d412331790f4426c6c33
-    name: PSX
+    - name: ps1_rom.bin
+      destination: ps1_rom.bin
+      required: true
+      md5: 81bbe60ba7a3d1cea1d48c14cbcc647b
+    - name: scph5500.bin
+      destination: scph5500.bin
+      required: true
+      md5: 8dd7d5296a650fac7319bce665a6a53c
+    - name: scph5501.bin
+      destination: scph5501.bin
+      required: true
+      md5: 490f666e1afb15b7362b406ed1cea246
+    - name: scph5502.bin
+      destination: scph5502.bin
+      required: true
+      md5: 32736f17079d0b2b7024407c39bd3050
+    name: Playstation
   pv1000:
     files:
     - name: pv1000.xml
@@ -1308,6 +1697,10 @@ systems:
       destination: mpr-17933.bin
       required: true
       md5: 3240872c70984b6cbfda1586cab68dbe
+    - name: saturn_bios.bin
+      destination: saturn_bios.bin
+      required: true
+      md5: af5828fdff51384f99b3c4926be27762
     - name: mpr-18811-mx.ic1
       destination: mpr-18811-mx.ic1
       required: true
@@ -1316,14 +1709,9 @@ systems:
       destination: mpr-19367-mx.ic1
       required: true
       md5: 1cd19988d1d72a3e7caa0b73234c96b4
-    - name: saturn_bios.bin
-      destination: saturn_bios.bin
+    - name: mpeg_card.bin
+      destination: mpeg_card.bin
       required: true
-      md5: af5828fdff51384f99b3c4926be27762
-    - name: saturn_bios.bin
-      destination: kronos/saturn_bios.bin
-      required: true
-      md5: af5828fdff51384f99b3c4926be27762
     name: Sega Saturn
   scummvm:
     files:
@@ -1341,7 +1729,6 @@ systems:
     - name: scv.zip
       destination: scv.zip
       required: true
-      md5: 33df021613fb12abe2ad14b9eb17c7fe
     - name: upd7801g.s01
       destination: upd7801g.s01
       required: true
@@ -1355,12 +1742,15 @@ systems:
     - name: 32X_G_BIOS.BIN
       destination: 32X_G_BIOS.BIN
       required: true
+      md5: 6a5433f6a132a2b683635819a6dcf085
     - name: 32X_M_BIOS.BIN
       destination: 32X_M_BIOS.BIN
       required: true
+      md5: f88354ec482be09aeccd76a97bb75868
     - name: 32X_S_BIOS.BIN
       destination: 32X_S_BIOS.BIN
       required: true
+      md5: 7f041b6a55cd7423a6c08a219335269e
     name: Sega 32X
   megacd:
     files:
@@ -1376,11 +1766,52 @@ systems:
       destination: bios_CD_J.bin
       required: true
       md5: 278a9397d192149e84e820ac621a8edd
-    name: Sega CD
+    name: Mega-CD
+  megadrive:
+    files:
+    - name: bios_MD.bin
+      destination: bios_MD.bin
+      required: true
+      md5: 45e298905a08f9cfb38fd504cd6dbc84
+    - name: sk.bin
+      destination: sk.bin
+      required: true
+      md5: 4ea493ea4e9f6c9ebfccbdb15110367e
+    - name: sk2chip.bin
+      destination: sk2chip.bin
+      required: true
+      md5: b4e76e416b887f4e7413ba76fa735f16
+    - name: areplay.bin
+      destination: areplay.bin
+      required: true
+      md5: a0028b3043f9d59ceeb03da5b073b30d
+    - name: ggenie.bin
+      destination: ggenie.bin
+      required: true
+      md5: b5d5ff1147036b06944b4d2cac2dd1e7
+    name: MegaDrive
+  megadrive-msu:
+    files:
+    - name: bios_CD_U.bin
+      destination: bios_CD_U.bin
+      required: true
+      md5: 854b9150240a198070150e4566ae1290
+    - name: bios_CD_E.bin
+      destination: bios_CD_E.bin
+      required: true
+      md5: e66fa1dc5820d254611fdcdba0662372
+    - name: bios_CD_J.bin
+      destination: bios_CD_J.bin
+      required: true
+      md5: 278a9397d192149e84e820ac621a8edd
+    name: MSU-MD
   segastv:
     files:
     - name: stvbios.zip
       destination: kronos/stvbios.zip
+      required: true
+    - name: stvbios.zip
+      destination: stvbios.zip
       required: true
     name: Sega ST-V
   sgb:
@@ -1443,7 +1874,7 @@ systems:
   triforce:
     files:
     - name: segaboot.gcm
-      destination: emulators/dolphin-emu/User/Triforce/segaboot.gcm
+      destination: triforce/segaboot.gcm
       required: true
     name: Triforce
   tutor:
@@ -1454,7 +1885,7 @@ systems:
     - name: tutor.xml
       destination: mame/hash/tutor.xml
       required: true
-    name: APF M-1000
+    name: Tomy Tutor
   vc4000:
     files:
     - name: vc4000.xml
@@ -1526,6 +1957,12 @@ systems:
       destination: Complex_4627.bin
       required: true
       md5: 39cee882148a87f93cb440b99dde3ceb
+    - name: Cerbios.bin
+      destination: Cerbios.bin
+      required: true
+    - name: Complex_4627v1.03.bin
+      destination: Complex_4627v1.03.bin
+      required: true
     name: XBox
   xegs:
     files:
